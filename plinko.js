@@ -14,7 +14,7 @@ class Plinko {
     display() {
         push();
         var pos = this.body.position;
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         fill(255);
         ellipse(pos.x, pos.y, this.r*2);
         pop();
